@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <title>Que-2</title>
+ <script type = "text/javascript">
+  function sayHi(){
+  var txtName = document.getElementById("txtName");
+  var txtOutput = document.getElementById("txtOutput");
+  var name = txtName.value;
+  txtOutput.value = name 
+  } 
+ </script>
+ 
+ </head>
+ <body>
+ <h1>Que-2</h1>
+ <h2>--Done By: Varinderjot Singh</h2>
+ <p>Create a webpage containing two input fields and a button.</p>
+  <p>A. Write something in the first input</p>
+ <p> B. On click of the button, the content of input one should be copied in the second input</p>
+ <form >
+  <fieldset>
+  <label>Type your text: </label>
+  <input type = "text"
+    id = "txtName" />
+  <input type = "button"
+    value = "click me"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "txtOutput" />
+  </fieldset>
+ </form>
+ </body>
+</html>
